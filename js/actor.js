@@ -1,7 +1,8 @@
 //Ator:
-let xAtor = 100;
+let xAtor = 85;
 let yAtor = 366;
 let colisao = false;
+let meusPontos = 0;
 
 function mostraAtor() {
   image(imagemDoAtor, xAtor, yAtor, 30, 30);
@@ -22,11 +23,25 @@ function verificaColisao() {
     colisao = collideRectCircle(xCarros[i], yCarros[i], comprimentoCarro, alturaCarro, xAtor, yAtor, 15);
 
     if(colisao) {
-      colidiu()
+      voltaParaPosicaoInicial()
     }
   }
 }
 
-function colidiu() {
+function voltaParaPosicaoInicial() {
   yAtor = 366;
+}
+
+function incluiPontos() {
+  textAlign(CENTER);
+  textSize(25);
+  fill(255, 240, 60);
+  text(meusPontos, width / 5, 27);
+}
+
+function marcaPonto() {
+  if(yAtor < 15) {
+    meusPontos += 1;
+    voltaParaPosicaoInicial()
+  }
 }
