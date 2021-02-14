@@ -25,3 +25,15 @@ function movimentaCarro() {
   xCarro2 -= velocidadeCarro2;
   xCarro3 -= velocidadeCarro3;
 }
+
+function voltaPosicaoInicialDoCarro() {
+  if(xCarro1 < -50) {
+    xCarro1 = 600;
+  }
+  if(xCarro2 < -50) {
+    xCarro2 = 600;
+  }
+  if(xCarro3 < -50) {
+    xCarro3 = 600;
+  }
+}
