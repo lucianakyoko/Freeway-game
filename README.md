@@ -5,7 +5,7 @@
   * JavaScript
   * Biblioteca P5 - p5.collide2D
   
-  # Preview mobile version:
+  # Preview:
   ![Freeway Game](https://github.com/lucianakyoko/Freeway-game/blob/main/.github/freeway.JPG)
 
   # Curso/ Instrutor:
