@@ -1,4 +1,5 @@
 function setup() {
+  somDaTrilha.loop(0, 1, 0.2);
   createCanvas(500, 400);
 }
 
@@ -13,6 +14,7 @@ function draw() {
   incluiPontos();
   marcaPonto();
 }
+
 
 
 
