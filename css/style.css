@@ -1,7 +1,24 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: rgb(243, 229, 229);
 }
 canvas {
+  margin: 0 auto;
   display: block;
 }
+
+h1 {
+  margin-bottom: 0;
+}
+
+p {
+ font-size: 1.5rem;
+ margin-top: 0;
+}
+
+h1, p {
+  color: rgb(15, 129, 72);
+  text-align: center;
+}
+
