@@ -6,6 +6,10 @@
   * Biblioteca P5 - p5.collide2D
   
   # Preview:
+  ## [Jogar Freeway Game](https://freeway-game.netlify.app/)
+
+
+  
   ![Freeway Game](https://github.com/lucianakyoko/Freeway-game/blob/main/.github/freeway.JPG)
 
   # Curso/ Instrutor:
